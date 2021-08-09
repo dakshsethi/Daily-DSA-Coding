@@ -9,3 +9,4 @@
 |5|Move Negative elements to one side in an Array|O(N)|
 |6|Union of 2 Sorted Arrays|O(N)|
 |7|Intersection of 2 Sorted Arrays|O((N+M)*Log(N))|
+|8|Clinically Rotate an Array by One|O(N)|
