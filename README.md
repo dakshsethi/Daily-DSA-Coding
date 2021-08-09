@@ -10,3 +10,4 @@ This is a repository for daily practice of data structures and algorithms by me.
 6. GFG 11 Week DSA Workshop
 7. [Aman Dhattarwal Apni College DSA Playlist](https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ)
 8. [Kunal Kushwaha 0 to FAANG DSA Bootcamp](https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ)
+9. [STL Time Complexities List](https://alyssaq.github.io/stl-complexities/)
