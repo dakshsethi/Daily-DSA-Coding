@@ -12,3 +12,4 @@
 |8|Clinically Rotate an Array by One|O(N)|
 |9|Linear Search|O(N)|
 |10|Binary Search|O(Log(N))|
+|11|Counting Squares Till N|O(Sqrt(N))|
