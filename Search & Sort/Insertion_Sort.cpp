@@ -22,7 +22,6 @@ void insertionSort(int arr[], int n) {
         }
         arr[j+1] = key;
     }
-  
 }
 
 void printArray(int arr[], int n) {
