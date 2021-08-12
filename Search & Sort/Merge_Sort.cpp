@@ -41,6 +41,8 @@ int * mergeSort(int arr[], int start, int end) {
     int *f1 = mergeSort(arr, start, mid);
     int *f2 = mergeSort(arr, mid+1, end);
     int *f3 = mergeTwoArrays(f1, f2);
+
+    return f3;
 }
 
 void printArray(int arr[], int n) {
