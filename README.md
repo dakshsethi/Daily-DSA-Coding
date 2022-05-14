@@ -12,3 +12,8 @@ This is a repository for daily practice of data structures and algorithms by me.
 8. [Kunal Kushwaha 0 to FAANG DSA Bootcamp](https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ)
 9. [STL Time Complexities List](https://alyssaq.github.io/stl-complexities/)
 10. [PepCoding YouTube Channel](https://www.youtube.com/channel/UC7rNzgC2fEBVpb-q_acpsmw)
+
+
+### There are different topics in this Repo:-
+1. [Arrays](https://github.com/dakshsethi/Daily-DSA-Coding/tree/main/Arrays)
+2. [Search & Sort](https://github.com/dakshsethi/Daily-DSA-Coding/tree/main/Search%20%26%20Sort)
