@@ -1,6 +1,12 @@
 ## Stack
 Stack is a linear data structure that follows a particular order in which the operations are performed. It works on the principle of LIFO(Last In First Out).
 
+
+|#|Question|Time Complexity|
+|-|-|-|
+|1|[Implementation using Array](./Implementation%20using%20Array/)||
+|2|[Valid Parenthesis](./Valid%20Parenthesis/)|O(N)|
+
 ### Algorithm for push:
 
 ```cpp
