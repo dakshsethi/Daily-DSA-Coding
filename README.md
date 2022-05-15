@@ -15,5 +15,6 @@ This is a repository for daily practice of data structures and algorithms by me.
 
 
 ### There are different topics in this Repo:-
-1. [Arrays](https://github.com/dakshsethi/Daily-DSA-Coding/tree/main/Arrays)
-2. [Search & Sort](https://github.com/dakshsethi/Daily-DSA-Coding/tree/main/Search%20%26%20Sort)
+1. [Arrays](/Arrays/)
+2. [Search & Sort](/Search%20%26%20Sort/)
+3. [Stack](/Stack/)
