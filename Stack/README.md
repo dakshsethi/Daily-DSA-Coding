@@ -7,6 +7,7 @@ Stack is a linear data structure that follows a particular order in which the op
 |1|[Implementation using Array](./Implementation%20using%20Array/)||
 |2|[Valid Parenthesis](./Valid%20Parenthesis/)|O(N)|
 |3|[Reverse String](./Reversing%20String/)|O(N)|
+|4|[Implement 2 Stacks in Array](./Implementing%202%20Stack%20in%20Array/)|O(N)|
 
 ### Algorithm for push:
 
