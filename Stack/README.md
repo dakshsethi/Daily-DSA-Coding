@@ -8,6 +8,7 @@ Stack is a linear data structure that follows a particular order in which the op
 |2|[Valid Parenthesis](./Valid%20Parenthesis/)|O(N)|
 |3|[Reverse String](./Reversing%20String/)|O(N)|
 |4|[Implement 2 Stacks in Array](./Implementing%202%20Stack%20in%20Array/)|O(N)|
+|5|[getMin() in O(1) time and O(1) extra space](./GetMin()%20in%20TC%3DO(1)%20%26%20SC%3DO(1)/)|O(1)|
 
 ### Algorithm for push:
 
