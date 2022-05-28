@@ -36,6 +36,38 @@ class Solution {
             }
             return -1;
         }
+        
+        /*
+        This is optimized solution.
+            TC = O(N)
+            SC = O(1)
+        */
+        int celebrity(vector<vector<int>> arr, int n) {
+            stack<int> st;
+            for(int i=0; i<n; i++)
+                st.push(i);
+
+            // finding the potential celebrity
+            while(st.size() >= 2) {
+                int i = st.top(); st.pop();
+                int j = st.top(); st.pop();
+                if(arr[i][j] == 1) {
+                    // if i knows j -> i is not a celebrity
+                    st.push(j);
+                }
+                else {
+                    // if i does not know j -> j is not a celebrity
+                    st.push(i);
+                }
+            }
+            
+            int pot = st.top();
+            for(int i=0; i<n; i++)
+                if(i != pot && (arr[i][pot] == 0 || arr[pot][i] == 1))
+                    return -1;
+            return pot;
+        }
+
 };
 
 int main() {
@@ -43,8 +75,13 @@ int main() {
     vector<vector<int>> arr = { {0,1,0},
                                 {0,0,0},
                                 {0,1,0} };
-    if(S.celebrityBF(arr, 3) == -1)
+    // if(S.celebrityBF(arr, 3) == -1)
+    //     cout<<"No Celebrity Exists\n";
+    // else
+    //     cout<<"Celebrity = "<<S.celebrityBF(arr, 3)<<endl;
+    if(S.celebrity(arr, 3) == -1)
         cout<<"No Celebrity Exists\n";
     else
-        cout<<"Celebrity = "<<S.celebrityBF(arr, 3)<<endl;
+        cout<<"Celebrity = "<<S.celebrity(arr, 3)<<endl;
+    return 0;
 }
