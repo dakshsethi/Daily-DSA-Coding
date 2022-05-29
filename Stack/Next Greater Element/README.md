@@ -29,8 +29,8 @@ is 3 and then for 3 there is no larger
 element on right and hence -1.
 ```
 
-**Time Complexity : O(N)
-Space Complexity : O(N)**
+**Time Complexity : O(N)**
+**Space Complexity : O(N)**
 
 ## Explanantion:
 Smaller or equal elements can be pushed over top elements of stack

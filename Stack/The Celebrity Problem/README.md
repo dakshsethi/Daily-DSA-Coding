@@ -30,7 +30,7 @@ know each other. None of them is a celebrity.
 ## Explanantion:
 ### Method 1: This uses Graph to arrive at the particular solution.
 
-**Approach:***
+**Approach:**
 Model the solution using graphs. Initialize indegree and outdegree of every vertex as 0. If A knows B, draw a directed edge from A to B, increase indegree of B and outdegree of A by 1. Construct all possible edges of the graph for every possible pair [i, j]. There are NC2 pairs. If a celebrity is present in the party, there will be one sink node in the graph with outdegree of zero and indegree of N-1. 
  
 
@@ -41,8 +41,8 @@ Model the solution using graphs. Initialize indegree and outdegree of every vert
 - For every pair i, j check if j knows i then increase the outdegree of j and indegree of i
 - Run a loop from 0 to n and find the id where the indegree is n-1 and outdegree is 0
 
-**Time Complexity: O(N^2)
-Space Complexity: O(N)** 
+**Time Complexity: O(N^2)**
+**Space Complexity: O(N)** 
 
 ### Method 2:
 **Approach :** 
@@ -59,5 +59,5 @@ Ensure the remained person is a celebrity. (What is the need of this step?)
 - Assign the remaining element in the stack as the celebrity.
 - Run a loop from 0 to n-1 and find the count of persons who knows the celebrity and the number of people whom the celebrity knows. if the count of persons who knows the celebrity is n-1 and the count of people whom the celebrity knows is 0 then return the id of celebrity else return -1.
 
-**Time Complexity: O(N)
-Space Complexity: O(N)** 
+**Time Complexity: O(N)**
+**Space Complexity: O(N)** 
