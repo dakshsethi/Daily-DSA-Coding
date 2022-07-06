@@ -18,3 +18,4 @@ This is a repository for daily practice of data structures and algorithms by me.
 1. [Arrays](/Arrays/)
 2. [Search & Sort](/Search%20%26%20Sort/)
 3. [Stack](/Stack/)
+4. [Linked List](/Linked%20List/)
