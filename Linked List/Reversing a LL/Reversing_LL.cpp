@@ -40,6 +40,14 @@ Node* reverse(Node* head) {
     return prevptr;
 }
 
+Node* reverseRecursive(Node* head) {
+    if(head == NULL || head->next == NULL)
+        return head;
+    Node* newhead = reverseRecursive(head->next);
+    head->next->next = head;
+    head->next = NULL;
+    return newhead;
+}
 
 
 int main() {
@@ -52,7 +60,18 @@ int main() {
     printList(head);
 
     Node* newhead = reverse(head);
-    cout<<"\nReversed LL:\n";
+    cout<<"\nReversed LL using Iteration:\n";
     printList(newhead);
+    
+    Node* head1 = new Node(6);
+    push(&head1, 5);
+    push(&head1, 4);
+    push(&head1, 3);
+    push(&head1, 2);
+    push(&head1, 1);
+
+    Node* newhead2 = reverseRecursive(head1);
+    cout<<"\nReversed LL using Recursion:\n";
+    printList(newhead2);
     return 0;
 }
