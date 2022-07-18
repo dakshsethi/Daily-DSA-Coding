@@ -14,3 +14,4 @@ A linked list is a linear data structure, in which the elements are not stored a
 |7|[Delete Loop in LL](./Delete%20Loop%20in%20LL/)|O(N)|
 |8|[Remove Duplicate in Unsorted LL](./Removed%20Duplicates%20in%20Unsorted%20LL/)|O(N)|
 |9|[Remove Duplicate in Sorted LL](./Removed%20Duplicates%20in%20Sorted%20LL/)|O(N)|
+|10|[Sorting a LL](./Sort%20a%20LL/)|O(N*Log(N))|
