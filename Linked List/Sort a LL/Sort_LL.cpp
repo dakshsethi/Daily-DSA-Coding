@@ -40,7 +40,6 @@ void sortList(struct Node* head) {
         }
         start = start->next;
     }
-    // return head;
 }
 
 int main() {
