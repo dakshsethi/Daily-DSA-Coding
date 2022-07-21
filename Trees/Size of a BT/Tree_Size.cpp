@@ -1,5 +1,6 @@
 #include <iostream>
 #include <algorithm>
+#include <climits>
 using namespace std;
 
 struct TreeNode {
@@ -33,12 +34,18 @@ void postOrder(struct TreeNode* root) {
     cout<<root->data<<" ";
 }
 
-int sizeOfTree(struct TreeNode* root) {
+int maxOfTree(struct TreeNode* root) {
     if (root == NULL)
-        return 0;
-    return sizeOfTree(root->left) + sizeOfTree(root->right) + 1;
-
+        return INT_MIN;
+    return max(root->data, max(maxOfTree(root->left), maxOfTree(root->right)));
 }
+
+int minOfTree(struct TreeNode* root) {
+    if (root == NULL)
+        return INT_MAX;
+    return min(root->data, min(minOfTree(root->left), minOfTree(root->right)));
+}
+
 
 int main() {
     struct TreeNode* root = new TreeNode(1);
@@ -58,6 +65,7 @@ int main() {
     cout<<"\nPostOrder Traversal of Tree: ";
     postOrder(root);
 
-    cout<<"\nSize of Tree: "<<sizeOfTree(root);
+    cout<<"\nMaximum Value of Tree: "<<maxOfTree(root);
+    cout<<"\nMinimum Value of Tree: "<<minOfTree(root);
     return 0;
 }
