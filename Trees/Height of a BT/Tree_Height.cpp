@@ -37,7 +37,6 @@ int heightOfTree(struct TreeNode* root) {
     if (root == NULL)
         return 0;
     return max(heightOfTree(root->left), heightOfTree(root->right)) + 1;
-
 }
 
 int main() {
