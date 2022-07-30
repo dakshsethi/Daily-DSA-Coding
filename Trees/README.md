@@ -17,3 +17,4 @@ A Binary Tree node contains the following parts:
 |4|[Height of a BT](./Height%20of%20a%20BT/)||
 |5|[Invert a BT](./Invert%20a%20BT/)||
 |6|[Are 2 Trees similar](./Same%20Tree/)||
+|7|[Sum Replacement of a BT](./Sum%20Replacement%20of%20a%20BT/)||
