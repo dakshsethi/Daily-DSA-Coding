@@ -3,6 +3,7 @@ A tree whose elements have at most 2 children is called a binary tree. Since eac
 
 ![Binary Tree](https://www.geeksforgeeks.org/wp-content/uploads/binary-tree-to-DLL.png)
 
+
 A Binary Tree node contains the following parts:
 1. Data
 2. Pointer to left child
@@ -18,3 +19,4 @@ A Binary Tree node contains the following parts:
 |5|[Invert a BT](./Invert%20a%20BT/)||
 |6|[Are 2 Trees similar](./Same%20Tree/)||
 |7|[Sum Replacement of a BT](./Sum%20Replacement%20of%20a%20BT/)|O(N)|
+
