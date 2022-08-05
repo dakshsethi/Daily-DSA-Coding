@@ -8,6 +8,7 @@ A Binary Tree node contains the following parts:
 2. Pointer to left child
 3. Pointer to right child
 
+
 |#|Question|Time Complexity|
 |-|-|-|
 |1|[Implementing a Tree](./Implementation/)||
